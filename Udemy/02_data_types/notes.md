@@ -59,21 +59,36 @@
         ginger_ratio, cardramom_ratio = cardramom_ratio, ginger_ratio
 
         # membership
-        'ginger' in spices # returns True or Flase - case sensitive
+        'ginger' in spices # returns True or False - case sensitive
 
 
     # Mutable
     
-    List (/Array)
-        - append
-        - pop (removes and returns the value), remove
-        - extent -> array1.extend(array2)
-        - insert[2, "water"]
-        - reverse
-        - sort
+        List (/Array)
+            - append
+            - pop (removes and returns the value), remove
+            - extent -> array1.extend(array2)
+            - insert[2, "water"]
+            - reverse
+            - sort
+
+        Set (Everything is unique)
+
+            set1 | set2 (| -> union)
+            set1 & set2 (& -> intersection)
+            set3 = set1 - set2 (- -> only in set1)
+
+            # membership
+            'clove' in set1 # returns True or False
+
+        Dictionary (named based indexing - key, value pair)
+            
+            chai_order = dict(type="masala chai", size="large", sugar=2)
 
 
+## Advance DataTypes
 
+datetime, time, calendar
+timedelta (duration / time difference)
+arrow, dateutil
 
-
-        
