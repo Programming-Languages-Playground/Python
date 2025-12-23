@@ -22,8 +22,13 @@
     - Write simple code 
 
  
+## Imports
+
+import masala_chai.py
+from masala_chai import brew
+from masala_chai import brew as start_brewing
+
 
 ## Softwares
     - app.eraser.io
     - excalidraw
-
