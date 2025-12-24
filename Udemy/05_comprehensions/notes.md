@@ -31,3 +31,8 @@ Set - {expression for item in iterable if condition}
 ## Set
               # key:value
 Dictionary - {expression for item in iterable if condition}
+
+## Generator (saving the memory)
+
+Generator - {expression for item in iterable if condition}
+
